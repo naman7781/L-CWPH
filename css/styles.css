@@ -1,0 +1,573 @@
+h1 {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: white;
+  font-weight: bold;
+
+}
+h2 {
+  font-family: 'Montserrat-Bold';
+  font-size: 4rem;
+  line-height: 1.5;
+  font-weight: bold;
+
+}
+body {
+  font-family: 'Kaushan Script', cursive;
+}
+h3 {
+  font-family: 'Montserrat-bold';
+  font-weight: bold;
+}
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  /* padding: 0 15% 10%; */
+  padding-top: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.navbar {
+  overflow: hidden;
+  /* background-color: #b01c24; */
+  background-color: #c92a33;
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.navbar a:hover {
+  background-color: #ff4d4d;
+}
+#title {
+  /* background-image: url("https://avante.biz/wp-content/uploads/Thinking-Wallpapers/Thinking-Wallpapers-001.jpg"); */
+  /* background-color: black; */
+  height: 45px;
+  padding-top: 0;
+  margin-top: 0;
+}
+/* navbar */
+.navbar-brand {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2.5rem;
+
+}
+.nav-item {
+  padding: 0 5px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  font-family: 'Kaushan Script', cursive;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-light';
+}
+/* download buuton */
+.dwn-btn {
+  margin: 5% 3% 5% 0;
+
+}
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  /* display: none; */
+  border: 1px solid #DDDDDD;
+       /* width: 200px;
+       height: 200px; */
+       position: relative;
+}
+.text11{
+  float: none;
+       position: absolute;
+       left: 15%;
+       right: 50%;
+       top: 10%;
+       z-index: 2000;
+       /* background-color: #92AD40; */
+       color: #FFFFFF;
+       width: 60%;
+       font-weight: bold;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #eefad7;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #eefad7;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+#home {
+  background-color: #ffffe6;
+}
+
+
+
+
+
+
+
+h5 {
+  display: inline-block;
+  padding: 10px;
+  background: #B9121B;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.full-screen {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+/* title image */
+.title-img {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+/* feature section */
+#about {
+  padding: 7% 15%;
+  background-color: #eefad7;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+  }
+  .skills-img-a {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+  .skills-img-b {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+  }
+  .skills-img-c {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+  }
+.feature-tag {
+  text-align: center;
+  padding: 5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+.features-image{
+  width: 60%;
+  border-radius: 100%;
+}
+/* testimonial section */
+/* #testimonial-carousel{
+  height: 4%;
+} */
+#events{
+
+  text-align: center;
+  background-color: white;
+  color:black;
+}
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.media-feature {
+  padding: 30px;
+  -webkit-transition: .2s all ease-out;
+  -o-transition: .2s all ease-out;
+  transition: .2s all ease-out;
+  background: #fff;
+  z-index: 1;
+  position: relative;
+  border-bottom: 10px solid transparent;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.media-feature .icon {
+  font-size: 60px;
+  color: #6A99CB;
+}
+
+.media-feature h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+}
+
+.media-feature:hover, .media-feature:focus {
+  -webkit-box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 20px -3px rgba(0, 0, 0, 0.1);
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  z-index: 2;
+  border-bottom: 10px solid #6A99CB;
+}
+
+.media-custom {
+  background: #fff;
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+  margin-bottom: 30px;
+  position: relative;
+  top: 0;
+}
+
+.media-custom .meta-post {
+  color: #ced4da;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.media-custom > a {
+  position: relative;
+  overflow: hidden;
+  display: block;
+}
+
+.media-custom .meta-chat {
+  color: #ced4da;
+}
+
+.media-custom .meta-chat:hover {
+  color: #868e96;
+}
+
+.media-custom img {
+  -webkit-transition: .3s all ease;
+  -o-transition: .3s all ease;
+  transition: .3s all ease;
+}
+
+.media-custom:focus img, .media-custom:hover img {
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
+.media-custom .media-body {
+  padding: 30px;
+}
+
+.media-custom .media-body h3 {
+  font-size: 20px;
+}
+
+.media-custom .media-body p:last-child {
+  margin-bottom: 0;
+}
+
+.media-testimonial img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.media-testimonial blockquote p {
+  font-size: 20px;
+  color: #000;
+  font-style: italic;
+}
+
+.event-list-item {
+  display: table;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+.event-list-item.first {
+  border-top: 1px solid #ccc;
+}
+
+.event-list-item p, .event-list-item span {
+  padding: 20px 10px;
+}
+
+.event-list-item span, .event-list-item p {
+  display: table-cell;
+}
+
+.event-list-item .date {
+  border-right: 1px solid #ccc;
+  text-transform: uppercase;
+  color: #b3b3b3;
+}
+
+.event-list-item .more {
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.event-list-item .date, .event-list-item .more {
+  width: 20%;
+}
+
+.event-list-item p {
+  font-size: 18px;
+  color: #000;
+  width: 60%;
+}
+
+.upcoming-events-highlight {
+  border-bottom: 1px solid #2e2e2e;
+  padding: 3em 0;
+  background: #262626;
+}
+
+.upcoming-events-highlight .section-heading {
+  background: #ffc107;
+  padding: 2px 15px;
+  display: inline-block;
+  font-size: 11px;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  margin-bottom: 15px;
+}
+
+.upcoming-events-highlight h2 {
+  font-size: 20px;
+  font-family: "Playfair Display", times, serif;
+}
+
+.upcoming-events-highlight h2 a {
+  color: #fff;
+}
+
+.upcoming-events-highlight .events-meta {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+
+.upcoming-events-highlight .counter-number-item {
+  background: #ffc107;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Playfair Display", times, serif;
+  color: #fff;
+  line-height: 1;
+}
+
+.half > div {
+  width: 50%;
+  padding: 4% 5%;
+}
+
+.half > div.bg {
+  background-size: cover;
+  background-position: center center;
+}
+
+.half > div.bg.campmeeting #date-countdown .countdown-block {
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.half > div.bg.campmeeting #date-countdown .countdown-block .label {
+  font-size: 30px;
+  color: #fff;
+}
+
+.half > div.bg.campmeeting h2 {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .half > div.bg {
+    height: 350px;
+  }
+}
+
+@media (max-width: 991px) {
+  .half > div {
+    width: 100%;
+  }
+}
+/* .element-animate {
+  opacity: 0;
+  visibility: hidden;
+} */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+  height: 550px;
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+/* pricing section */
+#pricing {
+  padding: 100px;
+}
+.pricing-col {
+  padding: 3% 2%;
+  text-align: center;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/* cta section */
+#contact {
+  background-color: #2e2024;
+  text-align: center;
+
+}
+.cta-h3{
+  color: #fff;
+  font-family: "Montserrat-Black";
+  width: 60%;
+  text-align: center;
+  font-size: 3.5rem;
+  margin: 0 auto;
+  font-weight: bold;
+  padding-top: 5%;
+}
+/* .carousel-control-next-icon{
+  background-color: black;
+} */
+/* footer section */
+#footer {
+   background-color: #fff;
+   text-align: center;
+   padding-top: 4%;
+}
+.footer-icon {
+  padding: 0 0.5%;
+}
+.footer-p {
+  padding-top: 0.5%;
+}
